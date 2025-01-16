@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Nov 23 16:25:38 2024
+# Process ID: 3692
+# Current directory: C:/Users/Atharva/Documents/RTL_coding/logic gates
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4344 C:\Users\Atharva\Documents\RTL_coding\logic gates\logic gates.xpr
+# Log file: C:/Users/Atharva/Documents/RTL_coding/logic gates/vivado.log
+# Journal file: C:/Users/Atharva/Documents/RTL_coding/logic gates\vivado.jou
+# Running On        :LAPTOP-2D0OM17C
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) Ultra 5 125H
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:14
+# CPU Logical cores :18
+# Host memory       :16766 MB
+# Swap memory       :7784 MB
+# Total Virtual     :24550 MB
+# Available Virtual :12501 MB
+#-----------------------------------------------------------
+start_gui
+ooopen_project {C:/Users/Atharva/Documents/RTL_coding/logic gates/logic gates.xpruuupdate_compile_order -fileset sources_close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_adder1/Half_Adder/Half_Adder.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_adder1/Half_adder_dataflow/Half_adder_dataflow.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_adder1/Half_adder_behav/Half_adder_behav.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_sub/Half_sub_gate/Half_sub_gate.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_sub/Half_sub_dataflow/Half_sub_dataflow.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_sub/Half_sub_behav/Half_sub_behav.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,82 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Nov 16 19:50:39 2024
+# Process ID: 13592
+# Current directory: C:/Users/Atharva/Documents/RTL_coding/logic gates
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5128 C:\Users\Atharva\Documents\RTL_coding\logic gates\logic gates.xpr
+# Log file: C:/Users/Atharva/Documents/RTL_coding/logic gates/vivado.log
+# Journal file: C:/Users/Atharva/Documents/RTL_coding/logic gates\vivado.jou
+# Running On        :LAPTOP-2D0OM17C
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) Ultra 5 125H
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:14
+# CPU Logical cores :18
+# Host memory       :16766 MB
+# Swap memory       :7784 MB
+# Total Virtual     :24550 MB
+# Available Virtual :14189 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Atharva/Documents/RTL_coding/logic gates/logic gates.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_adder1/Half_Adder/Half_Adder.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_adder1/Half_adder_dataflow/Half_adder_dataflow.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_adder1/Half_adder_behav/Half_adder_behav.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb_ha.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_sub/Half_sub_gate/Half_sub_gate.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_sub/Half_sub_dataflow/Half_sub_dataflow.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Half_sub/Half_sub_behav/Half_sub_behav.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_hs.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Full_adder/Full_adder_gate/Full_adder_gate.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Full_adder/Full_adder_dataflow/Full_adder_dataflow.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Full_adder/Full_adder_behav/Full_adder_behav.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb_fa.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Full_sub/Full_sub_gate/Full_sub_gate.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Full_sub/Full_sub_dataflow/Full_sub_dataflow.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Atharva/Documents/RTL_coding/Full_sub/Full_sub_behav/Full_sub_behav.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_fs.tcl
+add_bp {C:/Users/Atharva/Documents/RTL_coding/Full_sub/Full_sub_behav/Full_sub_behav.srcs/sources_1/new/fs.v} 8
+close_sim
