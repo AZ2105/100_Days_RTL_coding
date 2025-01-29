@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+Data: 00000000, Parity: 0
+Data: 00000001, Parity: 1
+Data: 00000011, Parity: 0
+Data: 10000000, Parity: 1
+Data: 11011111, Parity: 1
+Data: 01010101, Parity: 0
+Data: 10101010, Parity: 0
+$finish called at time : 70 ns : File "C:/Users/Atharva/Documents/RTL_coding/Even parity generator/Even parity generator.srcs/sim_1/new/tb_epg.v" Line 48
