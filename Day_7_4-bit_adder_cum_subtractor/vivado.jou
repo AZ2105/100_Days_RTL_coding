@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Jan 30 21:37:01 2025
+# Process ID: 16048
+# Current directory: C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10320 C:\Users\Atharva\Documents\RTL_coding\4 bit adder cum subtractor\4 bit adder cum subtractor.xpr
+# Log file: C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/vivado.log
+# Journal file: C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor\vivado.jou
+# Running On        :LAPTOP-2D0OM17C
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) Ultra 5 125H
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:14
+# CPU Logical cores :18
+# Host memory       :16766 MB
+# Swap memory       :1948 MB
+# Total Virtual     :18714 MB
+# Available Virtual :10006 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.xpr}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.srcs/sim_1/new
+file mkdir C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.srcs/sim_1/new
+file mkdir C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.srcs/sim_1/new
+file mkdir C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.srcs/sim_1/new
+file mkdir C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.srcs/sim_1/new
+file mkdir {C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.srcs/sim_1/new}
+close [ open {C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.srcs/sim_1/new/tb_acs.v} w ]
+add_files -fileset sim_1 {{C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.srcs/sim_1/new/tb_acs.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_acs.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim

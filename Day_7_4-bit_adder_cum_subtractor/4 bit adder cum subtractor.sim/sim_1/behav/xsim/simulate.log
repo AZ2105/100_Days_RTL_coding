@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+a= 1010 b= 0101 sum = 1111, carry = 0
+a= 1010 b= 0101 difference = 0101, borrow = 1
+a= 0100 b= 0111 sum = 1011, carry = 0
+a= 0100 b= 0111 difference = 1101, borrow = 0
+a= 1001 b= 1111 sum = 1000, carry = 1
+a= 1001 b= 1111 difference = 1010, borrow = 0
+a= 0101 b= 1101 sum = 0010, carry = 1
+a= 0101 b= 1101 difference = 1000, borrow = 0
+$finish called at time : 80 ns : File "C:/Users/Atharva/Documents/RTL_coding/4 bit adder cum subtractor/4 bit adder cum subtractor.srcs/sim_1/new/tb_acs.v" Line 72
